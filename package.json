@@ -1,0 +1,27 @@
+{
+  "name": "firstproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mongoose": "^4.12.5",
+    "next": "^4.1.4",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-imageloader": "^2.1.0"
+  }
+}
