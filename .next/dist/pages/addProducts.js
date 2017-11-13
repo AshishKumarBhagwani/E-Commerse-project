@@ -28,13 +28,13 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Head = require('./Head');
+var _link = require('next\\dist\\lib\\link.js');
 
-var _Head2 = _interopRequireDefault(_Head);
+var _link2 = _interopRequireDefault(_link);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = 'E:\\MERN Stack\\E-commerse project\\components\\shared\\side-bar.js';
+var _jsxFileName = 'E:\\MERN Stack\\E-commerse project\\pages\\addProducts.js?entry';
 
 
 var _class = function (_React$Component) {
@@ -54,38 +54,37 @@ var _class = function (_React$Component) {
                     fileName: _jsxFileName,
                     lineNumber: 7
                 }
-            }, _react2.default.createElement(_Head2.default, {
-                __source: {
+            }, _react2.default.createElement('form', { method: 'post', action: '/addProducts', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 8
                 }
-            }), _react2.default.createElement('div', { className: 'col-md-2 side-bar', __source: {
+            }, _react2.default.createElement('input', { type: 'text', name: 'pname', placeholder: 'Enter Product Name', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 9
                 }
-            }, _react2.default.createElement('div', { className: 'sidebar-container', __source: {
+            }), _react2.default.createElement('input', { type: 'text', name: 'brand', placeholder: 'Enter Product Brand', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 10
+                }
+            }), _react2.default.createElement('button', { type: 'submit', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 11
+                }
+            }, 'Add Products')), _react2.default.createElement('p', {
+                __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 13
+                }
+            }, 'Click here to ', _react2.default.createElement(_link2.default, { href: '/logout', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 13
                 }
             }, _react2.default.createElement('a', {
                 __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 12
-                }
-            }, _react2.default.createElement('div', { className: 'item', __source: {
-                    fileName: _jsxFileName,
                     lineNumber: 13
                 }
-            }, _react2.default.createElement('h4', {
-                __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 14
-                }
-            }, _react2.default.createElement('i', { className: 'glyphicon glyphicon-home', __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 14
-                }
-            }), ' Home'))))));
+            }, 'Logout'))));
         }
     }]);
 
@@ -93,4 +92,4 @@ var _class = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = _class;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXHNoYXJlZFxcc2lkZS1iYXIuanMiXSwibmFtZXMiOlsiUmVhY3QiLCJIZWFkIiwiQ29tcG9uZW50Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLEFBQU87Ozs7QUFDUCxBQUFPLEFBQVU7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O2lDQUdMLEFBQ0o7bUNBQ0ksY0FBQTs7OEJBQUE7Z0NBQUEsQUFDSTtBQURKO0FBQUEsYUFBQSxrQkFDSSxBQUFDOzs4QkFBRDtnQ0FESixBQUNJLEFBQ0E7QUFEQTtBQUFBLGdDQUNBLGNBQUEsU0FBSyxXQUFMLEFBQWU7OEJBQWY7Z0NBQUEsQUFDSTtBQURKOytCQUNJLGNBQUEsU0FBSyxXQUFMLEFBQWU7OEJBQWY7Z0NBQUEsQUFFSTtBQUZKOytCQUVJLGNBQUE7OzhCQUFBO2dDQUFBLEFBQ0k7QUFESjtBQUFBLCtCQUNJLGNBQUEsU0FBSyxXQUFMLEFBQWU7OEJBQWY7Z0NBQUEsQUFDSTtBQURKOytCQUNJLGNBQUE7OzhCQUFBO2dDQUFBLEFBQUk7QUFBSjtBQUFBLG9EQUFPLFdBQUgsQUFBYTs4QkFBYjtnQ0FBSixBQUFJO0FBQUE7Z0JBUjVCLEFBQ0ksQUFFSSxBQUNJLEFBRUksQUFDSSxBQUNJLEFBTzNCOzs7OztFQWpCd0IsZ0JBQU0sQSIsImZpbGUiOiJzaWRlLWJhci5qcyIsInNvdXJjZVJvb3QiOiJFOi9NRVJOIFN0YWNrL0UtY29tbWVyc2UgcHJvamVjdCJ9
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzXFxhZGRQcm9kdWN0cy5qcyJdLCJuYW1lcyI6WyJSZWFjdCIsIkxpbmsiLCJDb21wb25lbnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsQUFBTzs7OztBQUNQLEFBQU87Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O2lDQUdLLEFBQ0o7bUNBQ0ksY0FBQTs7OEJBQUE7Z0NBQUEsQUFDSTtBQURKO0FBQUEsYUFBQSxrQkFDSSxjQUFBLFVBQU0sUUFBTixBQUFlLFFBQU8sUUFBdEIsQUFBK0I7OEJBQS9CO2dDQUFBLEFBQ0k7QUFESjt3REFDVyxNQUFQLEFBQWMsUUFBTyxNQUFyQixBQUE0QixTQUFRLGFBQXBDLEFBQWtEOzhCQUFsRDtnQ0FESixBQUNJLEFBQ0E7QUFEQTt5REFDTyxNQUFQLEFBQWMsUUFBTyxNQUFyQixBQUE0QixTQUFRLGFBQXBDLEFBQWtEOzhCQUFsRDtnQ0FGSixBQUVJLEFBQ0E7QUFEQTtnQ0FDQSxjQUFBLFlBQVEsTUFBUixBQUFlOzhCQUFmO2dDQUFBO0FBQUE7ZUFKUixBQUNJLEFBR0ksQUFFSixrQ0FBQSxjQUFBOzs4QkFBQTtnQ0FBQTtBQUFBO0FBQUEsZUFBaUIsa0NBQUEsQUFBQyxnQ0FBSyxNQUFOLEFBQWE7OEJBQWI7Z0NBQUEsQUFBd0I7QUFBeEI7K0JBQXdCLGNBQUE7OzhCQUFBO2dDQUFBO0FBQUE7QUFBQSxlQVBqRCxBQUNJLEFBTUksQUFBaUIsQUFBd0IsQUFHcEQ7Ozs7O0VBWndCLGdCQUFNLEEiLCJmaWxlIjoiYWRkUHJvZHVjdHMuanM/ZW50cnkiLCJzb3VyY2VSb290IjoiRTovTUVSTiBTdGFjay9FLWNvbW1lcnNlIHByb2plY3QifQ==

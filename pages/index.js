@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import axios from 'axios';
 import Styles from '../styles/Style';
-//import Background from '../static/images/background_image.jpg';
+import Navigation from '../components/navigation';
 
 
 export default class extends React.Component{
@@ -17,13 +17,12 @@ export default class extends React.Component{
     }
     render(){
         return(
-           <html>
-               <body style = {Styles.body}>
-                <div><Link href='/login'><a>Login with user</a></Link></div>
-                <p>Click here to <Link href = '/signup'><a>Signup</a></Link></p>
-                {/*<img src = '../static/images/background_image.jpg' alt = "Image could not be loaded" ></img>*/}
-               </body>
-           </html>
+            <main style = {Styles.body}>
+                <Navigation />
+                <div>
+
+                </div>
+            </main>
         );
     }
 }

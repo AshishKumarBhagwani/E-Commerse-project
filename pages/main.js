@@ -22,9 +22,6 @@ export default class extends React.Component{
     render(){
         return(
             <main>
-                {this.hours}:{this.minutes}
-                {/*{this.currentdate.getUTCHours() + parseInt(this.props.UTCOffset)}*/}
-                  <Sidebar />
                 <h1>Wellcome to E-commerse site</h1>
                 <b>Welcome</b><p>Username: {this.state.user.username}</p>
                 <p>Click here to <Link href = '/logout' ><a>Logout</a></Link></p>
